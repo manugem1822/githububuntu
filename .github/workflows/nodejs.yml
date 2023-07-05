@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build application
-        run: npm run build  # Adjust this command based on your build script
+      - #name: Build application
+        #run: npm run build  # Adjust this command based on your build script
 
       # Restart process managed by PM2
       - name: Restart PM2 process
